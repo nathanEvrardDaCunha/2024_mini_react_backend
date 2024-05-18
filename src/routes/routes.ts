@@ -1,0 +1,1 @@
+import express from "express";import employeeRouter from "./employeeRoutes";export const initRoutes = (app: express.Express) => {		console.log("In this init route");	app.use('/employee', employeeRouter);	};

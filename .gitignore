@@ -1,0 +1,5 @@
+.idea.envnode_modules/prisma/runtimeprisma/migrations.DS_Store
+node_modules
+.idea
+prisma/migrations
+.env
