@@ -3,7 +3,7 @@ The goal of this project is to create a clean react client for one of my course.
 The backend is free to choose.
 
 This application doesn't contain any authentication like token or hashed password.
-It only serve the purpose of being a quick and easy backend to test react functionality.
+It only serves the purpose of being a quick and easy backend to test react functionality.
 
 ### Instructions :
 - Run : npm install
