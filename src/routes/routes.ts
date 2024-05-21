@@ -1,1 +1,1 @@
-import express from "express";import employeeRouter from "./employeeRoutes";export const initRoutes = (app: express.Express) => {		console.log("In this init route");	app.use('/employee', employeeRouter);	};
+import express from "express";import employeeRouter from "./employeeRoutes";import sessionRouter from "./sessionRoutes";export const initRoutes = (app: express.Express) => {		app.use('/employee', employeeRouter);	app.use('/session', sessionRouter);	};
